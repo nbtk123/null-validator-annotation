@@ -1,0 +1,7 @@
+apply plugin: 'kotlin'
+
+dependencies {
+    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    compile 'com.squareup:kotlinpoet:1.2.0'
+    compile group: 'com.google.auto.service', name: 'auto-service', version: '1.0-rc2'
+}
