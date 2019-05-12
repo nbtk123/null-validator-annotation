@@ -27,7 +27,9 @@ Eventually you'll end up writing a validation layer:
 ```
 data class User {
   ...
-  fun validate() = id != null && username != null && email != null
+  fun validate() {
+    id != null && username != null && email != null
+  }
 }
 ```
 
